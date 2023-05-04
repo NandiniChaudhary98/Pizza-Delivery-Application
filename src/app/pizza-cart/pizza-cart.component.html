@@ -1,0 +1,14 @@
+<mat-card id="card">
+    <mat-card-content id="name"><h1>{{newPizza.pizzaName}}</h1></mat-card-content>
+    <mat-card-content>size <h1>{{newPizza.size}}</h1></mat-card-content>
+    <mat-card-content>Price <h1>{{newPizza.price}}</h1></mat-card-content>
+    
+    <div>
+       <button mat-button id="button" (click)="addToPizzaCart()">
+         <span>Add to cart</span>
+         <mat-icon id="icon">shopping_cart</mat-icon>
+        </button>
+    </div>
+   
+    
+   </mat-card>

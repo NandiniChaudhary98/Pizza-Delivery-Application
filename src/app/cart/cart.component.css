@@ -1,0 +1,48 @@
+#title{
+    color: blueviolet;
+    text-align: center;
+    margin-top: 30px;
+}
+ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 30px
+    
+}
+ul li{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid rgb(216, 216, 129)
+}
+.button{
+   
+    padding: 5px;
+    background-color: azure;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 158);
+}
+#priceBox{
+    justify-content: space-evenly;
+    margin: 40px
+}
+span{
+    color: rebeccapurple;
+}
+.content{
+    color: blueviolet;
+}
+#order{
+    float: right;
+    margin-right: 80px;
+    padding:8px 15px 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(84, 84, 158);
+
+}
+.item{
+    color: white;
+}

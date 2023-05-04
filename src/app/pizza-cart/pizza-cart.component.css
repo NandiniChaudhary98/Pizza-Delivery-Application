@@ -1,0 +1,23 @@
+#card{
+    height: 200px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 150px;
+    text-align: center;
+}
+mat-card{
+    text-align: center;
+}
+#name{
+    color: blueviolet;
+}
+#icon{
+    color: rebeccapurple;
+    
+}
+#button{
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    width:500px;
+
+}

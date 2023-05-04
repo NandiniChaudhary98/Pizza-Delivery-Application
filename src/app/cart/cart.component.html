@@ -1,0 +1,36 @@
+    <div id="title"><h1>Pizza Order Details</h1></div>
+    <ul>
+        <li *ngFor="let pizzaItem of cart.items">
+            <div class="content">        
+                {{pizzaItem.pizza.pizzaName}}
+            </div>
+            <div class="content">
+                {{pizzaItem.pizza.size}}
+            </div>
+            <div class="content">
+                {{pizzaItem.amount | currency}}
+            </div>
+
+            <div>
+                <button class="button" (click)="removeFromCart(pizzaItem)"><span class="item">Remove</span></button>
+            </div>
+        </li>
+    </ul>
+
+    <div id="priceBox">
+        <div>
+            <span>Number Of Pizzas : </span>
+            {{cart.items.length}}
+        </div>
+        <div>
+            <span>Total Amount : </span>
+            {{cart.totalPrice | currency}}
+        </div>
+        
+    </div>
+    <div >
+        <button id="order" (click)="PlaceOrder()"><span class="item">Order</span></button>
+    </div>
+    
+    
+    
